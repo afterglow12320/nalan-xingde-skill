@@ -1,0 +1,8 @@
+# 抓取日志：陈旧且与 _manifest.json 重复，不入库
+nalan-xingde/raw/_fetch.log
+
+# 系统与编辑器杂物
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
