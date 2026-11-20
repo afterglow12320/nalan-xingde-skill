@@ -67,7 +67,8 @@ argument-hint: <词作题目|问题|词牌名|拟作题材>
 ## 史源纪律
 
 - **A 级**：纳兰自著本文（《通志堂集》诗词文、《渌水亭杂识》、书札序跋）——可径引。
-- **B 级**：同时代人直接记载（徐乾学墓志铭与神道碑、韩菼碑铭、严绳孙序与行状、顾贞观祭文、挽诗）——可引，注明撰者与立场。
+- **B 级**：同时代人直接记载（徐乾学墓志铭与神道碑、韩〔名缺〕碑铭、严绳孙序与行状、顾贞观祭文、挽诗）——可引，注明撰者与立场。
+  卷19 神道碑铭与祭文的撰者篇题只署「韓」，其名语料无载（「菼」字全库零命中），**一律作「韩〔名缺〕」，不得补名**（见 `references/network.md` §2）。
 - **C 级**：后世整理与研究（清人年谱、今人校笺本、词话）——引其说须标"某云"，不与 A/B 混同。
 - **D 级**：传说、笔记轶闻、影视演绎、网络通行说法——只可作"相传"，不得进入事实陈述。
 - 引文规则：只从 `raw/` 或 `references/` 复制原文；不凭记忆写任何一句词、任何一条评语。字频与句长数字须来自脚本输出。
@@ -93,7 +94,7 @@ argument-hint: <词作题目|问题|词牌名|拟作题材>
 - `references/network.md` — 家族世系与交游圈（据碑传；含唱和对象索引）
 - `references/poetics.md` — 词学·诗学·经学主张（A 级自述 80 条为主，附争议处）
 - `references/style-profile.md` — 风格指纹（生成：`node scripts/style_stats.mjs --out=references/style-profile.md`）
-- `references/reception.md` — 历代评点 50 余条，逐条带原文与 raw 出处；含贬抑一端与"定位用语清单"
+- `references/reception.md` — 历代评点 48 条，逐条带原文与 raw 出处；含贬抑一端与"定位用语清单"
 - `references/contested.md` — 争议台账：科第三说之调和、继室与子数、葬地、梭龙年、词数与异文、传闻层（沈宛等）、语料自身缺陷
 - `scripts/works_index.mjs` — 生成词作索引；`scripts/style_stats.mjs` — 风格统计与按调自查 `--tune=浣溪沙` `--top=30` `--src=volumes|collection` `--out=`
 - `scripts/ci_parse.mjs` — 两脚本共用的分首与并校解析（改词四卷格式时同步此处）
